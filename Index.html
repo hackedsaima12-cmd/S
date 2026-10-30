@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cudy Guest Network - Sign In</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .login-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 16px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        .login-card h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: #38bdf8;
+        }
+        .login-card p {
+            font-size: 14px;
+            color: #94a3b8;
+            margin-bottom: 25px;
+        }
+        .btn {
+            background: #38bdf8;
+            color: #0f172a;
+            border: none;
+            padding: 12px 20px;
+            width: 100%;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-card">
+        <h2>Cudy Guest Wi-Fi</h2>
+        <p>Click below to connect and access the internet.</p>
+        <button class="btn" onclick="alert('Connected Successfully!')">Continue to Internet</button>
+    </div>
+
+</body>
+</html>
